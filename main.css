@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{  
-Width:100%;
-}
 header{
  display: flex;
  justify-content: space-between;
@@ -227,6 +224,9 @@ section{
 .sugg p{
     margin-right:90px;
 }
+.sugg p:last-child{
+    margin-right:0px;
+}
 .sugg-title{
     align-items: center;
     display: flex;
@@ -248,7 +248,34 @@ section{
     padding-bottom: 3px;
 }
 
+@media(max-width:992px){
+    header{
+        padding: 10px 20px;
+    }
+    section .leftside{
+        width:100%;
+    }
+    section .rightside{
+        display: none;
+    }
+}
+@media(max-width:768px){
+header .search{
+    display: none;
+}
+section{
+    padding: 30px 20px;
+}
+}
 
+@media(max-width:576){
+    .story.stories{
+        width: 25%;
+    }
+    header nav ul li{
+        margin-right: 10px;
+    }
+}
 
 
 
