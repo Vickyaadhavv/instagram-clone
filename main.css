@@ -276,6 +276,11 @@ section{
         margin-right: 10px;
     }
 }
+@media(max-width:380px){
+  .story .stories{
+    width:25%
+    }
+}
 
 
 
