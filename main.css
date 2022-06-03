@@ -268,7 +268,7 @@ section{
 }
 }
 
-@media(max-width:576){
+@media(max-width:576px){
     .story.stories{
         width: 25%;
     }
